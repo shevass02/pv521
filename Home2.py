@@ -65,9 +65,11 @@
 
 # summa = float(input("Enter summa - "))
 # age = int(input("Enter age - "))
-# if age>=18 and age<=60:
-#     print("Знижка 10% - ", summa-(summa/10))
-# if age>60:
+# if age<=18:
+#     print("Знижка 10% - ",summa-(summa/10))
+# elif age>=18 and age<=60:
+#     print("Знижка 5% - ", summa-(summa/20))
+# elif age>60:
 #     print("Знижка 15% - ",summa-((summa/100)*15))
 # else:
 #     print(summa)
