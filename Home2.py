@@ -4,52 +4,56 @@
 # Необхідно вивести на екран назви дня тижня. 
 # Наприклад, якщо 1, то на екрані напис понеділок, 2 — вівторок тощо.
 
-# number = input("Enter week number - ")
+# number = int(input("Enter week number - "))
 # if number== "1":
 #     print("Monday")
-# if number== "2":
+# elif number== "2":
 #     print("Tuesday")
-# if number== "3":
+# elif number== "3":
 #     print("Wednesday")
-# if number== "4":
+# elif number== "4":
 #     print("Thursday")
-# if number== "5":
+# elif number== "5":
 #     print("Friday")
-# if number== "6":
+# elif number== "6":
 #     print("Satarday")
-# if number== "7":
+# elif number== "7":
 #     print("Sunday")
+# else:
+#     print("No day")
 
 # Завдання 2
 # Користувач вводить із клавіатури номер місяця (1-12).
 # Необхідно вивести на екран назву місяця. Наприклад, якщо 1,
 # то на екрані напис січень, 2 — лютий тощо.
     
-# number = input("Enter number month - ")
+# number = int(input("Enter number month - "))
 # if number== "1":
 #     print("January")
-# if number== "2":
+# elif number== "2":
 #     print("February")
-# if number== "3":
+# elif number== "3":
 #     print("March")
-# if number== "4":
+# elif number== "4":
 #     print("April")
-# if number== "5":
+# elif number== "5":
 #     print("May")
-# if number== "6":
+# elif number== "6":
 #     print("June")
-# if number== "7":
+# elif number== "7":
 #     print("Jule")
-# if number== "8":
+# elif number== "8":
 #     print("August")
-# if number== "9":
+# elif number== "9":
 #     print("September")
-# if number== "10":
+# elif number== "10":
 #     print("October")
-# if number== "11":
+# elif number== "11":
 #     print("November")
-# if number== "12":
+# elif number== "12":
 #     print("December")
+# else:
+#     print("No month")
 
 # Рівень 2
 # Завдання 3
